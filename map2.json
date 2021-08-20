@@ -1052,8 +1052,23 @@
          "tilewidth":32
         }, 
         {
+         "columns":20,
          "firstgid":321,
-         "source":"2d-rpg-tileset.tsx"
+         "image":"2d-rpg-tileset.png",
+         "imageheight":480,
+         "imagewidth":640,
+         "margin":0,
+         "name":"2d-rpg-tileset",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
+         "spacing":0,
+         "tilecount":300,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
